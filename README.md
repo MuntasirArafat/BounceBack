@@ -1,6 +1,3 @@
-````markdown
-# BounceBack
-
 <h1 class="text-center mb-5">BounceBack</h1>
 <p class="text-gray">Unmask recovery vectors — safely.</p>
 
@@ -47,13 +44,13 @@ npm install
 /uploads/proxy.txt        # optional proxy list
 /uploads/valid.txt        # results
 /public                   # web UI files
-recoverguard.js           # main server + checker
+index.js           # main server + checker
 ```
 
 ### Running the App
 
 ```bash
-node recoverguard.js
+node index.js
 ```
 
 Open the web UI at `http://localhost:3000` to upload `numbers.txt` and optional `proxy.txt`, then start the checker.
@@ -161,5 +158,4 @@ Fields:
 
 MIT or your chosen license.
 
-```
-```
+
