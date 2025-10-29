@@ -12,7 +12,7 @@ const app = express();
 const server = http.createServer(app);
 const io = new Server(server);
 
-const PORT = 3000;
+const PORT = 6666;
 const UPLOAD_DIR = path.join(__dirname, 'uploads');
 const PUBLIC_DIR = path.join(__dirname, 'public');
 const NUMBERS_FILE = path.join(UPLOAD_DIR, 'numbers.txt');
