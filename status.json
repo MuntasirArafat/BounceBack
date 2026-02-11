@@ -1,0 +1,10 @@
+{
+  "status": "success",
+  "license_status": "active",
+  "purchase_code": "ABC123-XYZ789",
+  "message": "License activated successfully.",
+  "actions": {
+    "deactivate": true,
+    "activate": false
+  }
+}
